@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/08/03 09:29:02.000.242,=C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/11/06 07:06:06.000.707,=C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/11/06 07:13:12.000.100,=C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/11/06 07:18:05.000.443,C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto MENU\uFrmPrincipal.dfm=C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2024/11/06 07:18:05.000.443,C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto MENU\uFrmPrincipal.pas=C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/11/06 07:18:22.000.281,C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto MENU\uFrmCadastrocliente.pas=C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/11/06 07:18:22.000.281,C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto MENU\uFrmCadastrocliente.dfm=C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2024/11/06 07:18:30.000.470,C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto MENU\MENU.dproj=C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2024/11/06 08:34:35.000.439,=C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto MENU\uFrmBaseGrid.pas</Transaction>
+    <Transaction>2024/11/06 08:34:44.000.544,=C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto MENU\uFrmCadClientes.pas</Transaction>
+    <Transaction>2024/11/06 08:38:36.000.068,C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto MENU\uFrmCadClientes.pas=</Transaction>
+    <Transaction>2024/11/06 08:40:31.000.343,=C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto MENU\uFrmBaseCad.pas</Transaction>
+    <Transaction>2024/11/13 06:48:21.000.513,=C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto MENU\Unit1.pas</Transaction>
+    <Transaction>2024/11/13 06:50:24.000.279,C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto MENU\Unit1.pas=C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto MENU\uFrmListarClientes.pas</Transaction>
+    <Transaction>2024/11/13 06:50:24.000.279,C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto MENU\Unit1.dfm=C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto MENU\uFrmListarClientes.dfm</Transaction>
+    <Transaction>2024/11/13 07:05:19.000.703,=C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto MENU\Unit1.pas</Transaction>
+    <Transaction>2024/11/13 07:05:35.000.156,C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto MENU\Unit1.pas=C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto MENU\uCliente.pas</Transaction>
+    <Transaction>2024/11/13 07:10:35.000.243,=C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto MENU\uDM.pas</Transaction>
+    <Transaction>2024/11/23 10:08:15.000.699,=C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto\Projeto-delphi\Unit1.pas</Transaction>
+    <Transaction>2024/11/23 10:09:35.000.069,C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto\Projeto-delphi\Unit1.pas=C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto\Projeto-delphi\uFmrCadCliente.pas</Transaction>
+    <Transaction>2024/11/23 10:09:35.000.069,C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto\Projeto-delphi\Unit1.dfm=C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto\Projeto-delphi\uFmrCadCliente.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

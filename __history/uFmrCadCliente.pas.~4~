@@ -1,0 +1,55 @@
+unit uFmrCadCliente;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, uFrmBaseCad, System.Actions,
+  Vcl.ActnList, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  TfrmCadCliente = class(TfrmBaseCad)
+    lblNome: TLabel;
+    edtNome: TEdit;
+    edtCPF_CNPJ: TEdit;
+    edtEndereco: TEdit;
+    edtBairro: TEdit;
+    edtCidade: TEdit;
+    edtNumero: TEdit;
+    edtUF: TEdit;
+    lblCPF_CNPJ: TLabel;
+    lblEndereco: TLabel;
+    lblBairro: TLabel;
+    lblCidade: TLabel;
+    lblNumero: TLabel;
+    lblUF: TLabel;
+    rdgTipoPessoa: TRadioGroup;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    class procedure abrir;
+  end;
+
+var
+  frmCadCliente: TfrmCadCliente;
+
+implementation
+
+{$R *.dfm}
+{ TfrmCadCliente }
+
+class procedure TfrmCadCliente.abrir;
+begin
+  if not Assigned(frmCadCliente) then
+    Application.CreateForm(TfrmCadCliente, frmCadCliente);
+  with frmCadCliente do
+    try
+      ShowModal;
+    finally
+      FreeAndNil(frmCadCliente);
+    end;
+end;
+
+end.

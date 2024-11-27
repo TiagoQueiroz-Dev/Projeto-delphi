@@ -1,0 +1,40 @@
+unit uFrmListarClientes;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, uFrmBaseGrid, Data.DB, Vcl.StdCtrls,
+  Vcl.Grids, Vcl.DBGrids, Vcl.ExtCtrls;
+
+type
+  TFrmListarClientes = class(TfrmBaseGrid)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    class procedure abrir;
+  end;
+
+var
+  FrmListarClientes: TFrmListarClientes;
+
+implementation
+
+{$R *.dfm}
+{ TFrmListarClientes }
+
+class procedure TFrmListarClientes.abrir;
+begin
+  if not Assigned(FrmListarClientes) then
+    Application.CreateForm(TFrmListarClientes, FrmListarClientes);
+  with FrmListarClientes do
+    try
+      ShowModal;
+    finally
+      FreeAndNil(FrmListarClientes);
+    end;
+end;
+
+end.

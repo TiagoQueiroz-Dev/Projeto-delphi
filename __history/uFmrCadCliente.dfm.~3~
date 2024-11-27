@@ -1,0 +1,19 @@
+inherited frmCadCliente: TfrmCadCliente
+  Caption = 'Cadastro Clientes'
+  ClientHeight = 442
+  ClientWidth = 628
+  Position = poMainFormCenter
+  TextHeight = 15
+  inherited pnlButton: TPanel
+    Top = 401
+    Width = 628
+  end
+  inherited pnlCentral: TPanel
+    Width = 628
+    Height = 401
+    ExplicitLeft = 0
+    ExplicitTop = 0
+    ExplicitWidth = 624
+    ExplicitHeight = 400
+  end
+end

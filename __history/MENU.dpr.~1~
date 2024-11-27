@@ -1,0 +1,16 @@
+program MENU;
+
+uses
+  Vcl.Forms,
+  uFrmPrincipal in 'uFrmPrincipal.pas' {FrmPrincipal},
+  uFrmCadastrocliente in 'uFrmCadastrocliente.pas' {FrmCadastroclientes};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFrmPrincipal, FrmPrincipal);
+  Application.CreateForm(TFrmCadastroclientes, FrmCadastroclientes);
+  Application.Run;
+end.
