@@ -20,7 +20,10 @@
     <Transaction>2024/11/13 07:05:35.000.156,C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto MENU\Unit1.pas=C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto MENU\uCliente.pas</Transaction>
     <Transaction>2024/11/13 07:10:35.000.243,=C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto MENU\uDM.pas</Transaction>
     <Transaction>2024/11/23 10:08:15.000.699,=C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto\Projeto-delphi\Unit1.pas</Transaction>
-    <Transaction>2024/11/23 10:09:35.000.069,C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto\Projeto-delphi\Unit1.pas=C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto\Projeto-delphi\uFmrCadCliente.pas</Transaction>
     <Transaction>2024/11/23 10:09:35.000.069,C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto\Projeto-delphi\Unit1.dfm=C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto\Projeto-delphi\uFmrCadCliente.dfm</Transaction>
+    <Transaction>2024/11/23 10:09:35.000.069,C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto\Projeto-delphi\Unit1.pas=C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto\Projeto-delphi\uFmrCadCliente.pas</Transaction>
+    <Transaction>2024/11/26 23:44:49.985,=C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto\Projeto-delphi\Unit1.pas</Transaction>
+    <Transaction>2024/11/26 23:49:12.160,C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto\Projeto-delphi\uFrmEditarCliente.pas=C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto\Projeto-delphi\Unit1.pas</Transaction>
+    <Transaction>2024/11/26 23:49:12.160,C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto\Projeto-delphi\uFrmEditarCliente.dfm=C:\Users\Suricato Furtivo\Documents\Embarcadero\Studio\Projects\Projeto\Projeto-delphi\Unit1.dfm</Transaction>
   </Transactions>
 </BorlandProject>

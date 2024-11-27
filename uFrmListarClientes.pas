@@ -7,12 +7,14 @@ uses
   System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, uFrmBaseGrid, Data.DB, Vcl.StdCtrls,
   Vcl.Grids, Vcl.DBGrids, Vcl.ExtCtrls, uDM, uCliente, System.Actions,
-  Vcl.ActnList, uFmrCadCliente;
+  Vcl.ActnList, uFmrCadCliente, uFrmEditarCliente;
 
 type
   TFrmListarClientes = class(TfrmBaseGrid)
     procedure FormCreate(Sender: TObject);
     procedure acIncluirExecute(Sender: TObject);
+    procedure acEditarExecute(Sender: TObject);
+    procedure GridCellClick(Column: TColumn);
   private
     { Private declarations }
   public
@@ -23,6 +25,7 @@ type
   var
     Ftransacao: TTransacao;
     Fquery: TQuery;
+    Fid: integer;
 
   end;
 
@@ -46,6 +49,13 @@ begin
     end;
 end;
 
+procedure TFrmListarClientes.acEditarExecute(Sender: TObject);
+begin
+  inherited;
+  frmEditarCliente.abrir(Fid);
+
+end;
+
 procedure TFrmListarClientes.acIncluirExecute(Sender: TObject);
 begin
   inherited;
@@ -58,6 +68,12 @@ procedure TFrmListarClientes.FormCreate(Sender: TObject);
 begin
   inherited;
   CarregarDados;
+end;
+
+procedure TFrmListarClientes.GridCellClick(Column: TColumn);
+begin
+  inherited;
+  Fid := Fquery.FieldByName('COD_CLIENTE').Value;
 end;
 
 procedure TFrmListarClientes.CarregarDados;

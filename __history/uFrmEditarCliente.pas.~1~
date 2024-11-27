@@ -1,0 +1,26 @@
+unit uFrmEditarCliente;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, uFmrCadCliente, System.Actions,
+  Vcl.ActnList, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  TfrmCadCliente1 = class(TfrmCadCliente)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    class
+  end;
+
+var
+  frmCadCliente1: TfrmCadCliente1;
+
+implementation
+
+{$R *.dfm}
+
+end.
